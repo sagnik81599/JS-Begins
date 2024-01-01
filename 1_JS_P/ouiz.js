@@ -20,16 +20,19 @@ for(let i=0;i<num.length;i++){
     }
     console.log(num[i]);
 }
+
 //Arrays are 0 indexed. The continue skips the console log. When i = 2 (value 3), 
 //it doesn't print. Final print: 1,2,4
 
 let n = [2,3,4,5,6]
 
-for(i=0;i<n.length;i++){
-    if(i==2){
+for(let j=0;j<n.length;j++){
+    if(j==2){
         break;
     }
-    console.log(n[i]);
+    console.log(n[j]);
 }
+
+//Ans:- 2,3 beecause index no.2 to upto index wiil be stop
 
 
