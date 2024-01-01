@@ -22,4 +22,5 @@ let state;
 
 console.log(typeof(roll))
 console.log(typeof null) // object
+console.log(typeof state)
 
