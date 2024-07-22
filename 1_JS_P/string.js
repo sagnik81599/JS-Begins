@@ -33,4 +33,5 @@ console.log(url.replace("%","-"))
 
 console.log(url.includes("saha"))
 console.log(url.includes("vasa"))
+console.log(gamename.split('-'))
 
