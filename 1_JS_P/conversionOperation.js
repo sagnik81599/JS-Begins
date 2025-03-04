@@ -1,35 +1,35 @@
 // *************** Operation ******************
 
-let value = 5
-let negavalue = -value
-console.log(negavalue);
-//Ans:- nagative value -5 
 
-// console.log(5+2)
-// console.log(5-2)
-// console.log(5/2)
-// console.log(5*2)
-// console.log(3**3)
+let score = 5 + 9  //Assignment Operater
 
-console.log(1+2+" 45")
-console.log("2"+3+7)
-// ans:- 3 45
-//ans:- 237
-
-console.log(+true)
-console.log(+"")
-
-//ans: 1,0
+let n1 = 6;
+let n2 = 9;
+n1 += 6;
+n2 -= 6;
+console.log(n1);
+console.log(n2);
 
 
-let x=2
-let y=3
 
-y=++x+y+x++
-console.log(y)
-//ans:- 
-t= ++x+y-y+x+y++
-console.log(t)
+
+
+
+
+
+isLoggedin = true;
+ispad = false;
+
+console.log(isLoggedin && ispad);
+
+
+isgoogleEmailID = true;
+isUdemyID = false;
+
+console.log(isgoogleEmailID || isUdemyID);
+
+
+
 
 
 

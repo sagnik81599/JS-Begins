@@ -24,3 +24,5 @@ console.log(typeof(roll))
 console.log(typeof null) // object
 console.log(typeof state)
 
+console.table({ name: "Sagnik"});
+console.warn({ name: "Sagnik"});
