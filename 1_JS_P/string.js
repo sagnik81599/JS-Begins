@@ -35,3 +35,11 @@ console.log(url.includes("saha"))
 console.log(url.includes("vasa"))
 console.log(gamename.split('-'))
 
+
+
+
+let mystring = "Hello";
+
+old = mystring + " saggy";
+
+console.log(old);
