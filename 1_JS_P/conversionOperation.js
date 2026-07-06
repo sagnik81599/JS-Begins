@@ -12,11 +12,6 @@ console.log(n2);
 
 
 
-
-
-
-
-
 isLoggedin = true;
 ispad = false;
 
@@ -27,6 +22,17 @@ isgoogleEmailID = true;
 isUdemyID = false;
 
 console.log(isgoogleEmailID || isUdemyID);
+
+console.log("Bharath" && "Reddy");
+console.log("" && "Hello");
+
+console.log("Bharath" || "Reddy");
+console.log("" || "Hello");
+
+console.log([] && "hello")// where see [],{} is true alwayas 
+
+console.log(0 && "hello")// where see [],{} is true alwayas 
+
 
 
 

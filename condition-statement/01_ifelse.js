@@ -43,3 +43,43 @@ if (
 } else {
     console.log("Consonant");
 }
+
+
+//check role 
+const role = "ADMIN";
+
+if(role == "ADMIN"){
+    console.log("Welcome Admin");
+}
+else if(role == "MANAGER"){
+console.log("You can enter manager role");
+
+}
+else{
+    console.log("Invalid Role");
+    
+}
+
+
+
+
+
+
+
+
+
+let coupon = "FirstCome";
+let tno = 0;
+
+if (coupon == "FirstCome" && tno < 0) {
+    console.log("Discount 50%");
+}
+else if (tno ==50) {
+    console.log("Discount 30%");
+}
+else if (tno==100) {
+    console.log("Discount 20%");
+}
+else {
+    console.log("No Discount");
+}
