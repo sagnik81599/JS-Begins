@@ -9,7 +9,7 @@ function sayMyName(){ //parameters
     console.log("K");
 }
 
-// sayMyName()  //when call func they called Argument
+//  sayMyName()  //when call func they called Argument
 
 // function addTwoNumbers(num1,num2){
 //      console.log(num1 + num2); 
@@ -28,6 +28,7 @@ function addTwoNumbers(num1,num2){
 
 }
 const result = addTwoNumbers(3,5)
+
 
 // console.log("result: ",result)
 
@@ -58,3 +59,10 @@ function loginUserMessage(username ){
 
 // console.log(loginUserMessage2());
 // -----------------------------------------
+//return tpyes 
+function abcd(v) {
+    return 12 + v;
+}
+let val  = abcd(23);
+// console.log(val);
+
