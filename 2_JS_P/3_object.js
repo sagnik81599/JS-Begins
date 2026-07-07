@@ -50,3 +50,14 @@ jsUser.greetingTwo = function(){
 // console.log(jsUser.greetingTwo())
 
 
+const market ={
+    name:"iphone 13",
+    color:"black",
+    address:"West Bengal"
+}
+
+market.color="White";     //update value
+market["price"]= 500000;  // also add new properties
+delete(market["price"]);  //delete particular properties
+
+console.log(market);

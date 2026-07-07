@@ -1,5 +1,8 @@
 
 
+//main function i) normal func ii) func exporier  iii) arrow func  iv) multiparameter func v) default func vi) callback func vii) 
+
+ sayMyName()   //their calling function because this hoisting before written
 function sayMyName(){ //parameters
     console.log("S");
     console.log("A");
@@ -65,4 +68,6 @@ function abcd(v) {
 }
 let val  = abcd(23);
 // console.log(val);
+
+
 
