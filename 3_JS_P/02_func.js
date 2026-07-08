@@ -44,3 +44,6 @@ function sum(a,b){
 
 
 console.log(sumall(2,5,sum));
+
+
+const array = [10,]
